@@ -49,6 +49,7 @@ a {
     margin-left: auto;
 }
 
+
 /* C O V E R */
 
 .coverContainer {
@@ -60,6 +61,27 @@ a {
 
 /* P R O J E C T - G R I D */
 
+.projectContainer {
+    padding: 15px 15px 15px 15px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    justify-items: center;
+
+}
+
+.project {
+    display: grid;
+    background-color: #414141;
+    border: 0px;
+    justify-items: center;
+    align-items: center;
+}
+
+img {
+    margin: 25px 25px 25px 25px;
+    width: 25%;
+}
 
 
 /* F O O T E R */
