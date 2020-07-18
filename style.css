@@ -85,7 +85,12 @@ img {
 
 
 /* F O O T E R */
-
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.7em;
+}
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
