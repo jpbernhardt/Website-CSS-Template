@@ -57,39 +57,37 @@ a {
     justify-content: center;
     align-items: center;
     height: 40vh;
+
 }
 
 /* P R O J E C T - G R I D */
 
 .projectContainer {
-    padding: 15px 15px 15px 15px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 1rem;
-    justify-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 
 }
 
 .project {
-    display: grid;
+    /* display: grid; */
     background-color: #414141;
+    padding: 80px;
+    margin: 20px;
     border: 0px;
-    justify-items: center;
-    align-items: center;
 }
 
-img {
-    margin: 25px 25px 25px 25px;
-    width: 25%;
+.project > img {
+    width: 100%
 }
-
 
 /* F O O T E R */
-.footer {
-    display: flex;
-    justify-content: center;
+footer {
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.7em;
+}
+.footer-text-size {
+    font-size: 1em;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
