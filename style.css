@@ -1,5 +1,6 @@
 body {
     margin: auto 0;
+    font-family: Arial;
 }
 
 .zone {
@@ -18,12 +19,10 @@ body {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
-
 /* N A V I G A T I O N */
 
 .main-nav{
     display: flex;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.7em;
     list-style: none;
     margin: 0;
@@ -49,6 +48,12 @@ a {
     margin-left: auto;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 
 /* C O V E R */
 
@@ -58,6 +63,10 @@ a {
     align-items: center;
     height: 40vh;
 
+}
+
+.cover {
+    width: 30rem;
 }
 
 /* P R O J E C T - G R I D */
